@@ -54,6 +54,6 @@ $images: (
 
 @each $img in $images {
   .#{$img} {
-    background: url("./img/#{$img}.jpg") center/cover;
+    background: url("img/#{$img}.jpg") center/cover;
   }
 }
