@@ -54,27 +54,27 @@
 
 /* 🔥 GENERACIÓN AUTOMÁTICA CON @each */
 .img1 {
-  background: url("./img/img1.jpg") center/cover;
+  background: url("img/img1.jpg") center/cover;
 }
 
 .img2 {
-  background: url("./img/img2.jpg") center/cover;
+  background: url("img/img2.jpg") center/cover;
 }
 
 .img3 {
-  background: url("./img/img3.jpg") center/cover;
+  background: url("img/img3.jpg") center/cover;
 }
 
 .img4 {
-  background: url("./img/img4.jpg") center/cover;
+  background: url("img/img4.jpg") center/cover;
 }
 
 .img5 {
-  background: url("./img/img5.jpg") center/cover;
+  background: url("img/img5.jpg") center/cover;
 }
 
 .img6 {
-  background: url("./img/img6.jpg") center/cover;
+  background: url("img/img6.jpg") center/cover;
 }
 
 body {
