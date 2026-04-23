@@ -1,0 +1,22 @@
+@function c($key) {
+  @return map-get($colors, $key);
+}
+
+@mixin card {
+  background: c(surface);
+  border-radius: $radius;
+  overflow: hidden;
+  transition: 0.25s ease;
+  border: 1px solid rgba(255,255,255,0.06);
+
+  &:hover {
+    transform: translateY(-5px);
+    border-color: c(accent);
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

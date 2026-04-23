@@ -1,0 +1,8 @@
+@import 'gallery';
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: map-get($colors, bg);
+  color: map-get($colors, text);
+}
